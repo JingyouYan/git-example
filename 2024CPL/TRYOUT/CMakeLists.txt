@@ -1,0 +1,5 @@
+add_executable(hello hello.c)
+add_executable(guess guess.c)
+add_executable(if if.c)
+add_executable(assignment_structure assignment_structure.c)
+add_executable(while while.c)

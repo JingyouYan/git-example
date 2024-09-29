@@ -1,0 +1,198 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "TRYOUT",
+					"jsonFile" : "directory-TRYOUT-Debug-499bf690381fc1960471.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TRYOUT",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						10
+					]
+				},
+				{
+					"build" : "1-types-variable",
+					"jsonFile" : "directory-1-types-variable-Debug-be8915743dc595a1dda9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "1-types-variable",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "2-if-for-array",
+					"jsonFile" : "directory-2-if-for-array-Debug-ca8a799a0090f7607813.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "2-if-for-array",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "2024CPL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "admin::@56efea3879d6fa7bf999",
+					"jsonFile" : "target-admin-Debug-64dd41912a4f9b7647f0.json",
+					"name" : "admin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "assignment_structure::@af4d702bcf5a8ed034c3",
+					"jsonFile" : "target-assignment_structure-Debug-55d3eb9bf7e89d5b27ec.json",
+					"name" : "assignment_structure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "c::@56efea3879d6fa7bf999",
+					"jsonFile" : "target-c-Debug-36bc102de9f4dba43fe1.json",
+					"name" : "c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "guess::@af4d702bcf5a8ed034c3",
+					"jsonFile" : "target-guess-Debug-3dde6643b6ecd57afbb6.json",
+					"name" : "guess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hello::@af4d702bcf5a8ed034c3",
+					"jsonFile" : "target-hello-Debug-1282665e8a26729bd723.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "if::@af4d702bcf5a8ed034c3",
+					"jsonFile" : "target-if-Debug-207086b94222804e2c65.json",
+					"name" : "if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "leap::@1877d974addea39212c3",
+					"jsonFile" : "target-leap-Debug-a8a0499e18b45143e51f.json",
+					"name" : "leap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "min-array::@1877d974addea39212c3",
+					"jsonFile" : "target-min-array-Debug-225e167c1ed0381cce00.json",
+					"name" : "min-array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mol::@56efea3879d6fa7bf999",
+					"jsonFile" : "target-mol-Debug-01ad65f426112d027f82.json",
+					"name" : "mol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sphere::@56efea3879d6fa7bf999",
+					"jsonFile" : "target-sphere-Debug-e84d850cd76f838bba1e.json",
+					"name" : "sphere",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "while::@af4d702bcf5a8ed034c3",
+					"jsonFile" : "target-while-Debug-d8bb69886f736fc1072e.json",
+					"name" : "while",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/codes/2024CPL/cmake-build-debug",
+		"source" : "D:/codes/2024CPL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

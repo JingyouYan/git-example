@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="-n -i $FileName$ --style=allman --indent=spaces=4 --align-pointer=type --attach-closing-while --indent-coll-comments --pad-oper --pad-comma --pad-header --add-braces --mode=" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="*" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="save-auto-format" />
+      <option name="output" value="$FileName$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/Desktop/plugins/astyle-3.6.2-x64/astyle" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>
