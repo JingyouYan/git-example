@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/2024CPL
+# Install script for directory: E:/example/git-example/2024CPL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/2024CPL/cmake-build-debug/TRYOUT/cmake_install.cmake")
+  include("E:/example/git-example/2024CPL/cmake-build-debug/TRYOUT/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/2024CPL/cmake-build-debug/1-types-variable/cmake_install.cmake")
+  include("E:/example/git-example/2024CPL/cmake-build-debug/1-types-variable/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/codes/2024CPL/cmake-build-debug/2-if-for-array/cmake_install.cmake")
+  include("E:/example/git-example/2024CPL/cmake-build-debug/2-if-for-array/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/example/git-example/2024CPL/cmake-build-debug/3-for-a-while/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/example/git-example/2024CPL/cmake-build-debug/4-loop/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/codes/2024CPL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/example/git-example/2024CPL/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

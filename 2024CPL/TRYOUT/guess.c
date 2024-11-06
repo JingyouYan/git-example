@@ -1,24 +1,9 @@
-//step by step
-// Created by 26247 on 24-9-20.
-//
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 
-int main(void) {
-    /*order
-     * tell the rules,
-     * generate a random numbers,
-     *while(){}
-     /*if(){}
-     *else if {}
-     *else {}
-     */
-    /* ask the player to enter the guess number,
-    * receive,compare,and inform
-    */
-    /*
-    * loop:repeat until the player wins or loses
-    */
-
-
+int main(){
+    char str[] = "Hello, World!";
+    unsigned long long int len = strlen(str);
+    printf("字符串长度为: %llu\n", len);
     return 0;
 }

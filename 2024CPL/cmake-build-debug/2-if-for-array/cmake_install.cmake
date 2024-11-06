@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/2024CPL/2-if-for-array
+# Install script for directory: E:/example/git-example/2024CPL/2-if-for-array
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

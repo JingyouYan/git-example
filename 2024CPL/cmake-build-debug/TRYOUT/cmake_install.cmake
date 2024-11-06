@@ -1,4 +1,4 @@
-# Install script for directory: D:/codes/2024CPL/TRYOUT
+# Install script for directory: E:/example/git-example/2024CPL/TRYOUT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
