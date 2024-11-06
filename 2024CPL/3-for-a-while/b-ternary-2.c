@@ -25,7 +25,7 @@ int main(void){
             l++;
         }
 
-        //这一步很重要！！直接结束这一轮次的while循环，提高程序运行效率
+        //这一步很重要！！直接结束这一轮次的while循环
         if (!legal) {
             continue;
         }
