@@ -1,0 +1,6 @@
+add_executable(leap2 leap2.c)
+add_executable(primes2 primes2.c)
+add_executable(stars stars.c)
+add_executable(binary-search2 binary-search2.c)
+add_executable(palindrome2 palindrome2.c)
+add_executable(sum sum.c)

@@ -32,11 +32,11 @@ int main(void){
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
             if (new_map[i][j] == 'o') {
-                new_map[i][j] = (new_map[i - 1][j - 1] = '*') + (new_map[i - 1][j] = '*') + (
-                                    new_map[i - 1][j + 1] = '*') +
+                new_map[i][j] = (new_map[i - 1][j - 1] = '*') + (new_map[i - 1][j] = '*') +
+                                (new_map[i - 1][j + 1] = '*') +
                                 (new_map[i][j - 1] = '*') + (new_map[i][j + 1] = '*') +
                                 (new_map[i + 1][j - 1] = '*') + (new_map[i + 1][j] = '*') + (
-                                    new_map[i + 1][j + 1] = '*');
+                                    new_map[i + 1][j + 1] = '*') + '0';
             }
         }
     }

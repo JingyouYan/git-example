@@ -2141,6 +2141,232 @@ build 2024BoCS/W1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 2024BoCS/W1/rebuild_cache: phony 2024BoCS/W1/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/example/git-example/2024CPL/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target leap2
+
+
+#############################################
+# Order-only phony target for leap2
+
+build cmake_object_order_depends_target_leap2: phony || .
+
+build 5-function/CMakeFiles/leap2.dir/leap2.c.obj: C_COMPILER__leap2_unscanned_Debug E$:/example/git-example/2024CPL/5-function/leap2.c || cmake_object_order_depends_target_leap2
+  DEP_FILE = 5-function\CMakeFiles\leap2.dir\leap2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\leap2.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\leap2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target leap2
+
+
+#############################################
+# Link the executable 5-function\leap2.exe
+
+build 5-function/leap2.exe: C_EXECUTABLE_LINKER__leap2_Debug 5-function/CMakeFiles/leap2.dir/leap2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\leap2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\leap2.exe
+  TARGET_IMPLIB = 5-function\libleap2.dll.a
+  TARGET_PDB = leap2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target primes2
+
+
+#############################################
+# Order-only phony target for primes2
+
+build cmake_object_order_depends_target_primes2: phony || .
+
+build 5-function/CMakeFiles/primes2.dir/primes2.c.obj: C_COMPILER__primes2_unscanned_Debug E$:/example/git-example/2024CPL/5-function/primes2.c || cmake_object_order_depends_target_primes2
+  DEP_FILE = 5-function\CMakeFiles\primes2.dir\primes2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\primes2.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\primes2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target primes2
+
+
+#############################################
+# Link the executable 5-function\primes2.exe
+
+build 5-function/primes2.exe: C_EXECUTABLE_LINKER__primes2_Debug 5-function/CMakeFiles/primes2.dir/primes2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\primes2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\primes2.exe
+  TARGET_IMPLIB = 5-function\libprimes2.dll.a
+  TARGET_PDB = primes2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stars
+
+
+#############################################
+# Order-only phony target for stars
+
+build cmake_object_order_depends_target_stars: phony || .
+
+build 5-function/CMakeFiles/stars.dir/stars.c.obj: C_COMPILER__stars_unscanned_Debug E$:/example/git-example/2024CPL/5-function/stars.c || cmake_object_order_depends_target_stars
+  DEP_FILE = 5-function\CMakeFiles\stars.dir\stars.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\stars.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\stars.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stars
+
+
+#############################################
+# Link the executable 5-function\stars.exe
+
+build 5-function/stars.exe: C_EXECUTABLE_LINKER__stars_Debug 5-function/CMakeFiles/stars.dir/stars.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\stars.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\stars.exe
+  TARGET_IMPLIB = 5-function\libstars.dll.a
+  TARGET_PDB = stars.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binary-search2
+
+
+#############################################
+# Order-only phony target for binary-search2
+
+build cmake_object_order_depends_target_binary-search2: phony || .
+
+build 5-function/CMakeFiles/binary-search2.dir/binary-search2.c.obj: C_COMPILER__binary-search2_unscanned_Debug E$:/example/git-example/2024CPL/5-function/binary-search2.c || cmake_object_order_depends_target_binary-search2
+  DEP_FILE = 5-function\CMakeFiles\binary-search2.dir\binary-search2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\binary-search2.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\binary-search2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary-search2
+
+
+#############################################
+# Link the executable 5-function\binary-search2.exe
+
+build 5-function/binary-search2.exe: C_EXECUTABLE_LINKER__binary-search2_Debug 5-function/CMakeFiles/binary-search2.dir/binary-search2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\binary-search2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\binary-search2.exe
+  TARGET_IMPLIB = 5-function\libbinary-search2.dll.a
+  TARGET_PDB = binary-search2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target palindrome2
+
+
+#############################################
+# Order-only phony target for palindrome2
+
+build cmake_object_order_depends_target_palindrome2: phony || .
+
+build 5-function/CMakeFiles/palindrome2.dir/palindrome2.c.obj: C_COMPILER__palindrome2_unscanned_Debug E$:/example/git-example/2024CPL/5-function/palindrome2.c || cmake_object_order_depends_target_palindrome2
+  DEP_FILE = 5-function\CMakeFiles\palindrome2.dir\palindrome2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\palindrome2.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\palindrome2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindrome2
+
+
+#############################################
+# Link the executable 5-function\palindrome2.exe
+
+build 5-function/palindrome2.exe: C_EXECUTABLE_LINKER__palindrome2_Debug 5-function/CMakeFiles/palindrome2.dir/palindrome2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\palindrome2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\palindrome2.exe
+  TARGET_IMPLIB = 5-function\libpalindrome2.dll.a
+  TARGET_PDB = palindrome2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sum
+
+
+#############################################
+# Order-only phony target for sum
+
+build cmake_object_order_depends_target_sum: phony || .
+
+build 5-function/CMakeFiles/sum.dir/sum.c.obj: C_COMPILER__sum_unscanned_Debug E$:/example/git-example/2024CPL/5-function/sum.c || cmake_object_order_depends_target_sum
+  DEP_FILE = 5-function\CMakeFiles\sum.dir\sum.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\sum.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sum
+
+
+#############################################
+# Link the executable 5-function\sum.exe
+
+build 5-function/sum.exe: C_EXECUTABLE_LINKER__sum_Debug 5-function/CMakeFiles/sum.dir/sum.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\sum.exe
+  TARGET_IMPLIB = 5-function\libsum.dll.a
+  TARGET_PDB = sum.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 5-function/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\example\git-example\2024CPL\cmake-build-debug\5-function && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 5-function/edit_cache: phony 5-function/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 5-function/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\example\git-example\2024CPL\cmake-build-debug\5-function && D:\software\toolbox\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SE:\example\git-example\2024CPL -BE:\example\git-example\2024CPL\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 5-function/rebuild_cache: phony 5-function/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build ASCII: phony 2-if-for-array/ASCII.exe
@@ -2174,6 +2400,10 @@ build behaviours.exe: phony 4-loop/behaviours.exe
 build binary-search: phony 3-for-a-while/binary-search.exe
 
 build binary-search.exe: phony 3-for-a-while/binary-search.exe
+
+build binary-search2: phony 5-function/binary-search2.exe
+
+build binary-search2.exe: phony 5-function/binary-search2.exe
 
 build bit: phony 4-loop/bit.exe
 
@@ -2279,6 +2509,10 @@ build leap: phony 2-if-for-array/leap.exe
 
 build leap.exe: phony 2-if-for-array/leap.exe
 
+build leap2: phony 5-function/leap2.exe
+
+build leap2.exe: phony 5-function/leap2.exe
+
 build magic-square: phony 4-loop/magic-square.exe
 
 build magic-square.exe: phony 4-loop/magic-square.exe
@@ -2315,6 +2549,10 @@ build palindrome: phony 3-for-a-while/palindrome.exe
 
 build palindrome.exe: phony 3-for-a-while/palindrome.exe
 
+build palindrome2: phony 5-function/palindrome2.exe
+
+build palindrome2.exe: phony 5-function/palindrome2.exe
+
 build pi-2: phony 2-if-for-array/pi-2.exe
 
 build pi-2.exe: phony 2-if-for-array/pi-2.exe
@@ -2322,6 +2560,10 @@ build pi-2.exe: phony 2-if-for-array/pi-2.exe
 build primes: phony 3-for-a-while/primes.exe
 
 build primes.exe: phony 3-for-a-while/primes.exe
+
+build primes2: phony 5-function/primes2.exe
+
+build primes2.exe: phony 5-function/primes2.exe
 
 build review: phony TRYOUT/review.exe
 
@@ -2351,9 +2593,17 @@ build standup: phony 3-for-a-while/standup.exe
 
 build standup.exe: phony 3-for-a-while/standup.exe
 
+build stars: phony 5-function/stars.exe
+
+build stars.exe: phony 5-function/stars.exe
+
 build sudoku: phony 4-loop/sudoku.exe
 
 build sudoku.exe: phony 4-loop/sudoku.exe
+
+build sum: phony 5-function/sum.exe
+
+build sum.exe: phony 5-function/sum.exe
 
 build tictactoe: phony 4-loop/tictactoe.exe
 
@@ -2379,7 +2629,7 @@ build while.exe: phony TRYOUT/while.exe
 #############################################
 # Folder: E:/example/git-example/2024CPL/cmake-build-debug
 
-build all: phony TRYOUT/all 1-types-variable/all 2-if-for-array/all 3-for-a-while/all 4-loop/all 2024BoCS/all
+build all: phony TRYOUT/all 1-types-variable/all 2-if-for-array/all 3-for-a-while/all 4-loop/all 2024BoCS/all 5-function/all
 
 # =============================================================================
 
@@ -2426,6 +2676,13 @@ build 4-loop/all: phony 4-loop/bit.exe 4-loop/behaviours.exe 4-loop/matrix-mult.
 # =============================================================================
 
 #############################################
+# Folder: E:/example/git-example/2024CPL/cmake-build-debug/5-function
+
+build 5-function/all: phony 5-function/leap2.exe 5-function/primes2.exe 5-function/stars.exe 5-function/binary-search2.exe 5-function/palindrome2.exe 5-function/sum.exe
+
+# =============================================================================
+
+#############################################
 # Folder: E:/example/git-example/2024CPL/cmake-build-debug/TRYOUT
 
 build TRYOUT/all: phony TRYOUT/hello.exe TRYOUT/guess.exe TRYOUT/if.exe TRYOUT/assignment_structure.exe TRYOUT/while.exe TRYOUT/review.exe
@@ -2437,14 +2694,14 @@ build TRYOUT/all: phony TRYOUT/hello.exe TRYOUT/guess.exe TRYOUT/if.exe TRYOUT/a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/example/git-example/2024CPL/1-types-variable/CMakeLists.txt E$:/example/git-example/2024CPL/2-if-for-array/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/W1/CMakeLists.txt E$:/example/git-example/2024CPL/3-for-a-while/CMakeLists.txt E$:/example/git-example/2024CPL/4-loop/CMakeLists.txt E$:/example/git-example/2024CPL/CMakeLists.txt E$:/example/git-example/2024CPL/TRYOUT/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/example/git-example/2024CPL/1-types-variable/CMakeLists.txt E$:/example/git-example/2024CPL/2-if-for-array/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/W1/CMakeLists.txt E$:/example/git-example/2024CPL/3-for-a-while/CMakeLists.txt E$:/example/git-example/2024CPL/4-loop/CMakeLists.txt E$:/example/git-example/2024CPL/5-function/CMakeLists.txt E$:/example/git-example/2024CPL/CMakeLists.txt E$:/example/git-example/2024CPL/TRYOUT/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/example/git-example/2024CPL/1-types-variable/CMakeLists.txt E$:/example/git-example/2024CPL/2-if-for-array/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/W1/CMakeLists.txt E$:/example/git-example/2024CPL/3-for-a-while/CMakeLists.txt E$:/example/git-example/2024CPL/4-loop/CMakeLists.txt E$:/example/git-example/2024CPL/CMakeLists.txt E$:/example/git-example/2024CPL/TRYOUT/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/software/toolbox/CLion/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake E$:/example/git-example/2024CPL/1-types-variable/CMakeLists.txt E$:/example/git-example/2024CPL/2-if-for-array/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/CMakeLists.txt E$:/example/git-example/2024CPL/2024BoCS/W1/CMakeLists.txt E$:/example/git-example/2024CPL/3-for-a-while/CMakeLists.txt E$:/example/git-example/2024CPL/4-loop/CMakeLists.txt E$:/example/git-example/2024CPL/5-function/CMakeLists.txt E$:/example/git-example/2024CPL/CMakeLists.txt E$:/example/git-example/2024CPL/TRYOUT/CMakeLists.txt: phony
 
 
 #############################################

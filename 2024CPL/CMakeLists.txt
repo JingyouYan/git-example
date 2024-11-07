@@ -11,4 +11,5 @@ add_subdirectory(2-if-for-array)
 add_subdirectory(3-for-a-while)
 add_subdirectory(4-loop)
 add_subdirectory(2024BoCS)
+add_subdirectory(5-function)
 
