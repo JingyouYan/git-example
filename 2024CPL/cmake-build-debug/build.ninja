@@ -2117,6 +2117,39 @@ build 2024BoCS/W1/decimal-to-binary.exe: C_EXECUTABLE_LINKER__decimal-to-binary_
   TARGET_IMPLIB = 2024BoCS\W1\libdecimal-to-binary.dll.a
   TARGET_PDB = decimal-to-binary.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target state-graph
+
+
+#############################################
+# Order-only phony target for state-graph
+
+build cmake_object_order_depends_target_state-graph: phony || .
+
+build 2024BoCS/W1/CMakeFiles/state-graph.dir/state-graph.c.obj: C_COMPILER__state-graph_unscanned_Debug E$:/example/git-example/2024CPL/2024BoCS/W1/state-graph.c || cmake_object_order_depends_target_state-graph
+  DEP_FILE = 2024BoCS\W1\CMakeFiles\state-graph.dir\state-graph.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 2024BoCS\W1\CMakeFiles\state-graph.dir
+  OBJECT_FILE_DIR = 2024BoCS\W1\CMakeFiles\state-graph.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target state-graph
+
+
+#############################################
+# Link the executable 2024BoCS\W1\state-graph.exe
+
+build 2024BoCS/W1/state-graph.exe: C_EXECUTABLE_LINKER__state-graph_Debug 2024BoCS/W1/CMakeFiles/state-graph.dir/state-graph.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 2024BoCS\W1\CMakeFiles\state-graph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2024BoCS\W1\state-graph.exe
+  TARGET_IMPLIB = 2024BoCS\W1\libstate-graph.dll.a
+  TARGET_PDB = state-graph.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2343,6 +2376,204 @@ build 5-function/sum.exe: C_EXECUTABLE_LINKER__sum_Debug 5-function/CMakeFiles/s
   TARGET_IMPLIB = 5-function\libsum.dll.a
   TARGET_PDB = sum.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target next-permutation
+
+
+#############################################
+# Order-only phony target for next-permutation
+
+build cmake_object_order_depends_target_next-permutation: phony || .
+
+build 5-function/CMakeFiles/next-permutation.dir/next-permutation.c.obj: C_COMPILER__next-permutation_unscanned_Debug E$:/example/git-example/2024CPL/5-function/next-permutation.c || cmake_object_order_depends_target_next-permutation
+  DEP_FILE = 5-function\CMakeFiles\next-permutation.dir\next-permutation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\next-permutation.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\next-permutation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target next-permutation
+
+
+#############################################
+# Link the executable 5-function\next-permutation.exe
+
+build 5-function/next-permutation.exe: C_EXECUTABLE_LINKER__next-permutation_Debug 5-function/CMakeFiles/next-permutation.dir/next-permutation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\next-permutation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\next-permutation.exe
+  TARGET_IMPLIB = 5-function\libnext-permutation.dll.a
+  TARGET_PDB = next-permutation.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target absolute-prime
+
+
+#############################################
+# Order-only phony target for absolute-prime
+
+build cmake_object_order_depends_target_absolute-prime: phony || .
+
+build 5-function/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj: C_COMPILER__absolute-prime_unscanned_Debug E$:/example/git-example/2024CPL/5-function/absolute-prime.c || cmake_object_order_depends_target_absolute-prime
+  DEP_FILE = 5-function\CMakeFiles\absolute-prime.dir\absolute-prime.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\absolute-prime.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\absolute-prime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target absolute-prime
+
+
+#############################################
+# Link the executable 5-function\absolute-prime.exe
+
+build 5-function/absolute-prime.exe: C_EXECUTABLE_LINKER__absolute-prime_Debug 5-function/CMakeFiles/absolute-prime.dir/absolute-prime.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\absolute-prime.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\absolute-prime.exe
+  TARGET_IMPLIB = 5-function\libabsolute-prime.dll.a
+  TARGET_PDB = absolute-prime.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target converter2
+
+
+#############################################
+# Order-only phony target for converter2
+
+build cmake_object_order_depends_target_converter2: phony || .
+
+build 5-function/CMakeFiles/converter2.dir/converter2.c.obj: C_COMPILER__converter2_unscanned_Debug E$:/example/git-example/2024CPL/5-function/converter2.c || cmake_object_order_depends_target_converter2
+  DEP_FILE = 5-function\CMakeFiles\converter2.dir\converter2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\converter2.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\converter2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target converter2
+
+
+#############################################
+# Link the executable 5-function\converter2.exe
+
+build 5-function/converter2.exe: C_EXECUTABLE_LINKER__converter2_Debug 5-function/CMakeFiles/converter2.dir/converter2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\converter2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\converter2.exe
+  TARGET_IMPLIB = 5-function\libconverter2.dll.a
+  TARGET_PDB = converter2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target radix
+
+
+#############################################
+# Order-only phony target for radix
+
+build cmake_object_order_depends_target_radix: phony || .
+
+build 5-function/CMakeFiles/radix.dir/radix.c.obj: C_COMPILER__radix_unscanned_Debug E$:/example/git-example/2024CPL/5-function/radix.c || cmake_object_order_depends_target_radix
+  DEP_FILE = 5-function\CMakeFiles\radix.dir\radix.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\radix.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\radix.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target radix
+
+
+#############################################
+# Link the executable 5-function\radix.exe
+
+build 5-function/radix.exe: C_EXECUTABLE_LINKER__radix_Debug 5-function/CMakeFiles/radix.dir/radix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\radix.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\radix.exe
+  TARGET_IMPLIB = 5-function\libradix.dll.a
+  TARGET_PDB = radix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pair
+
+
+#############################################
+# Order-only phony target for pair
+
+build cmake_object_order_depends_target_pair: phony || .
+
+build 5-function/CMakeFiles/pair.dir/pair.c.obj: C_COMPILER__pair_unscanned_Debug E$:/example/git-example/2024CPL/5-function/pair.c || cmake_object_order_depends_target_pair
+  DEP_FILE = 5-function\CMakeFiles\pair.dir\pair.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\pair.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\pair.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pair
+
+
+#############################################
+# Link the executable 5-function\pair.exe
+
+build 5-function/pair.exe: C_EXECUTABLE_LINKER__pair_Debug 5-function/CMakeFiles/pair.dir/pair.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\pair.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\pair.exe
+  TARGET_IMPLIB = 5-function\libpair.dll.a
+  TARGET_PDB = pair.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection-sort2
+
+
+#############################################
+# Order-only phony target for selection-sort2
+
+build cmake_object_order_depends_target_selection-sort2: phony || .
+
+build 5-function/CMakeFiles/selection-sort2.dir/selection-sort2.c.obj: C_COMPILER__selection-sort2_unscanned_Debug E$:/example/git-example/2024CPL/5-function/selection-sort2.c || cmake_object_order_depends_target_selection-sort2
+  DEP_FILE = 5-function\CMakeFiles\selection-sort2.dir\selection-sort2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 5-function\CMakeFiles\selection-sort2.dir
+  OBJECT_FILE_DIR = 5-function\CMakeFiles\selection-sort2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection-sort2
+
+
+#############################################
+# Link the executable 5-function\selection-sort2.exe
+
+build 5-function/selection-sort2.exe: C_EXECUTABLE_LINKER__selection-sort2_Debug 5-function/CMakeFiles/selection-sort2.dir/selection-sort2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 5-function\CMakeFiles\selection-sort2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5-function\selection-sort2.exe
+  TARGET_IMPLIB = 5-function\libselection-sort2.dll.a
+  TARGET_PDB = selection-sort2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -2376,6 +2607,10 @@ build ASCII.exe: phony 2-if-for-array/ASCII.exe
 build Bye-JonaBell: phony 4-loop/Bye-JonaBell.exe
 
 build Bye-JonaBell.exe: phony 4-loop/Bye-JonaBell.exe
+
+build absolute-prime: phony 5-function/absolute-prime.exe
+
+build absolute-prime.exe: phony 5-function/absolute-prime.exe
 
 build admin: phony 1-types-variable/admin.exe
 
@@ -2436,6 +2671,10 @@ build clock.exe: phony 2-if-for-array/clock.exe
 build converter-1: phony 3-for-a-while/converter-1.exe
 
 build converter-1.exe: phony 3-for-a-while/converter-1.exe
+
+build converter2: phony 5-function/converter2.exe
+
+build converter2.exe: phony 5-function/converter2.exe
 
 build decimal-to-binary: phony 2024BoCS/W1/decimal-to-binary.exe
 
@@ -2545,6 +2784,14 @@ build mol: phony 1-types-variable/mol.exe
 
 build mol.exe: phony 1-types-variable/mol.exe
 
+build next-permutation: phony 5-function/next-permutation.exe
+
+build next-permutation.exe: phony 5-function/next-permutation.exe
+
+build pair: phony 5-function/pair.exe
+
+build pair.exe: phony 5-function/pair.exe
+
 build palindrome: phony 3-for-a-while/palindrome.exe
 
 build palindrome.exe: phony 3-for-a-while/palindrome.exe
@@ -2565,6 +2812,10 @@ build primes2: phony 5-function/primes2.exe
 
 build primes2.exe: phony 5-function/primes2.exe
 
+build radix: phony 5-function/radix.exe
+
+build radix.exe: phony 5-function/radix.exe
+
 build review: phony TRYOUT/review.exe
 
 build review.exe: phony TRYOUT/review.exe
@@ -2572,6 +2823,10 @@ build review.exe: phony TRYOUT/review.exe
 build selection-sort: phony 3-for-a-while/selection-sort.exe
 
 build selection-sort.exe: phony 3-for-a-while/selection-sort.exe
+
+build selection-sort2: phony 5-function/selection-sort2.exe
+
+build selection-sort2.exe: phony 5-function/selection-sort2.exe
 
 build self-power: phony 2-if-for-array/self-power.exe
 
@@ -2596,6 +2851,10 @@ build standup.exe: phony 3-for-a-while/standup.exe
 build stars: phony 5-function/stars.exe
 
 build stars.exe: phony 5-function/stars.exe
+
+build state-graph: phony 2024BoCS/W1/state-graph.exe
+
+build state-graph.exe: phony 2024BoCS/W1/state-graph.exe
 
 build sudoku: phony 4-loop/sudoku.exe
 
@@ -2657,7 +2916,7 @@ build 2024BoCS/all: phony 2024BoCS/W1/all
 #############################################
 # Folder: E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1
 
-build 2024BoCS/W1/all: phony 2024BoCS/W1/echo-character.exe 2024BoCS/W1/toupper-echo-character.exe 2024BoCS/W1/decimal-to-binary.exe
+build 2024BoCS/W1/all: phony 2024BoCS/W1/echo-character.exe 2024BoCS/W1/toupper-echo-character.exe 2024BoCS/W1/decimal-to-binary.exe 2024BoCS/W1/state-graph.exe
 
 # =============================================================================
 
@@ -2678,7 +2937,7 @@ build 4-loop/all: phony 4-loop/bit.exe 4-loop/behaviours.exe 4-loop/matrix-mult.
 #############################################
 # Folder: E:/example/git-example/2024CPL/cmake-build-debug/5-function
 
-build 5-function/all: phony 5-function/leap2.exe 5-function/primes2.exe 5-function/stars.exe 5-function/binary-search2.exe 5-function/palindrome2.exe 5-function/sum.exe
+build 5-function/all: phony 5-function/leap2.exe 5-function/primes2.exe 5-function/stars.exe 5-function/binary-search2.exe 5-function/palindrome2.exe 5-function/sum.exe 5-function/next-permutation.exe 5-function/absolute-prime.exe 5-function/converter2.exe 5-function/radix.exe 5-function/pair.exe 5-function/selection-sort2.exe
 
 # =============================================================================
 

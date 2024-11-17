@@ -23,9 +23,10 @@ int main(void){
     int number;
     scanf("%d", &number);
 
-    for (int i = 1; i <= number; i++) {
-        if (IsPrime(i)) {
-            printf("%d ", i);
-        }
-    }
+    // for (int i = 1; i <= number; i++) {
+    //     if (IsPrime(i)) {
+    //         printf("%d ", i);
+    //     }
+    // }
+    return IsPrime(number);
 }

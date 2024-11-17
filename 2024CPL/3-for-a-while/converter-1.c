@@ -4,18 +4,18 @@
 #include <stdio.h>
 
 int main(void){
-    int num;
-    scanf("%d", &num);
-    int num3 = num / 100;
-    int num2 = num % 100 / 10;
-    int num1 = num % 10;
+    int n;
+    scanf("%d", &n);
+    int num3 = n / 100;
+    int num2 = n % 100 / 10;
+    int num1 = n % 10;
 
-    if (!(num >= 0 && num <= 999)) {
+    if (!(n >= 0 && n <= 999)) {
         return 1;
     }
 
-    if (num <= 10 && num >= 0) {
-        switch (num) {
+    if (n <= 10 && n >= 0) {
+        switch (n) {
             case 0: printf("zero\n");
                 break;
             case 1: printf("one\n");
@@ -40,8 +40,8 @@ int main(void){
                 break;
         }
     }
-    if (num > 10 && num < 20) {
-        switch (num) {
+    if (n > 10 && n < 20) {
+        switch (n) {
             case 11: printf("eleven\n");
                 break;
             case 12: printf("twelve\n");
@@ -62,7 +62,7 @@ int main(void){
                 break;
         }
     }
-    if (num >= 20 && num <= 99) {
+    if (n >= 20 && n <= 99) {
         switch (num2) {
             case 2: printf("twenty");
                 break;
@@ -103,7 +103,7 @@ int main(void){
             default: break;
         }
     }
-    if (num >= 100 && num <= 999) {
+    if (n >= 100 && n <= 999) {
         //输出尾端记得加上空格（无类似\t表示） 不然编译器会默认连续输出
         switch (num3) {
             case 1: printf("one hundred ");
@@ -200,6 +200,5 @@ int main(void){
                 }
             }
         }
-        return 0;
     }
 }

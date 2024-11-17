@@ -69,6 +69,7 @@ E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/CMakeFiles/rebuild_cac
 E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1/CMakeFiles/echo-character.dir
 E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1/CMakeFiles/toupper-echo-character.dir
 E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1/CMakeFiles/decimal-to-binary.dir
+E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1/CMakeFiles/state-graph.dir
 E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1/CMakeFiles/edit_cache.dir
 E:/example/git-example/2024CPL/cmake-build-debug/2024BoCS/W1/CMakeFiles/rebuild_cache.dir
 E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/leap2.dir
@@ -77,5 +78,11 @@ E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/stars.dir
 E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/binary-search2.dir
 E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/palindrome2.dir
 E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/sum.dir
+E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/next-permutation.dir
+E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/absolute-prime.dir
+E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/converter2.dir
+E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/radix.dir
+E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/pair.dir
+E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/selection-sort2.dir
 E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/edit_cache.dir
 E:/example/git-example/2024CPL/cmake-build-debug/5-function/CMakeFiles/rebuild_cache.dir

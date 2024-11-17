@@ -28,7 +28,7 @@ int main(void){
         int min = dictionary[i];
         int min_index = i;
         //inner loop:find the minimum of the surplus numbers.
-        for (int j = i; j < len; j++) {
+        for (int j = i + 1; j < len; j++) {
             if (dictionary[j] < min) {
                 min = dictionary[j];
                 min_index = j;
