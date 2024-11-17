@@ -2,7 +2,8 @@
 // Created by 26247 on 2024/11/17.
 //
 #include <stdio.h>
-#define LEN 5
+#include <stdlib.h>
+// #define LEN 5
 
 void selectionSort(int arr[], int len);
 
@@ -15,12 +16,32 @@ void oldSwap(int arr[], int left_index, int right_index);
 void printArray(const int arr[], int len);
 
 int main(void){
-    int array[LEN] = {5, 2, 8, 1, 9};
+    int len = 0;
+    scanf("%d", &len);
 
-    printArray(array,LEN);
+    // int array[LEN] = {5, 2, 8, 1, 9};
+    //输入需要的内存空间大小，malloc函数让操作系统给你分配一块，并返回这块内存空间的首地址
+    //malloc函数返回的类型是void *
+    int *array = malloc(len * sizeof(*array));
+
+    if (array == NULL) {
+        exit(1);
+    }
+
+    // int index = -1;
+    // int ret;
+    // while(ret != scanf("%d",&array[++index])!=EOF);
+
+    for (int i = 0; i < len; i++) {
+        scanf("%d", array + i);
+    }
+
+    printArray(array, len);
     printf("\n");
-    selectionSort(array,LEN);
-    printArray(array,LEN);
+    selectionSort(array, len);
+    printArray(array, len);
+
+    free(array);
 
     return 0;
 }
@@ -28,7 +49,8 @@ int main(void){
 void selectionSort(int *arr, int len){
     for (int i = 0; i < len; i++) {
         int min_index = getMinIndex(arr, i, len - 1);
-        swapVal(&arr[i], &arr[min_index]);
+        // swapVal(&arr[i], &arr[min_index]);
+        swapVal(arr + i, arr + min_index);
     }
 }
 

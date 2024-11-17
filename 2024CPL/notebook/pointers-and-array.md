@@ -116,3 +116,81 @@ p - 3 : 往后跳三个字节
 
 p - q:两个指针指向的数组中的元素下标之差。
 
+### But an array name is not an variable.(unmodified lvalue)
+
+一个数组名只能指向一个数组的首地址，不是指针变量，可以理解为不可修改的左值。
+
+## Dynamic Memory Management
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+    int len = 0;
+    scanf("%d", &len);
+    
+    // int array[LEN] = {5, 2, 8, 1, 9};
+    //输入需要的内存空间大小，malloc函数让操作系统给你分配一块，并返回这块内存空间的首地址
+    //malloc函数返回的类型是void *,在C语言中不需要做强制类型转换（int *）
+    int *array = malloc(len * sizeof(int));
+
+    printArray(array,LEN);
+    printf("\n");
+    selectionSort(array,LEN);
+    printArray(array,LEN);
+
+    return 0;
+}
+```
+
+声明并赋值变量，变量名前的类型确定了这一块内存空间存储的数据类型；malloc函数只是给批了你输入大小的一块空间，没有规定类型。
+
+同时，我们为了方便修改该内存空间存储的数据类型，可以对该声明语句做以下修改
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+    int len = 0;
+    scanf("%d", &len);
+    
+
+    int *array = malloc(len * sizeof(*numbers));
+
+    printArray(array,LEN);
+    printf("\n");
+    selectionSort(array,LEN);
+    printArray(array,LEN);
+
+    return 0;
+}
+```
+
+同时，malloc函数不一定会成功（内存空间大小不足等问题），所以需要判断是否申请成功（值是否为NULL）。
+
+```c
+if(array == NULL){
+    exit(1);
+}
+```
+
+![alt text](image-2.png)
+
+地址为0的内存空间是受操作系统保护的，不允许任何人使用，相当于空指针。
+
+**不要忘记最后`free(array);`（不用说明数组长度，操作系统已经由malloc函数得知了）**
+
+ free的原因：
+
+- 栈stack——函数运行时函数中内容的存放区
+- 堆heap——
+  
+malloc函数分配出来的空间是在堆上的，不在栈中；
+栈中main，swap，f函数层次嵌套，从作为链条底层的f开始自动释放对应内存空间，但进行到main函数结束时就会因为malloc出现问题，导致内存泄漏。
+  
+array作为main函数中的局部变量，main函数结束时，array也会被释放。但由aaray的地址指向的内存空间在堆上，所以不会被自动释放，而指针也消失了，会导致没有指针再指向这块内存空间，不再可用了。
+  所以，需要手动释放。
+
+同时，free后不能再调用array中的内容了；有且仅有malloc函数动态分配的内存空间可以被free也必须被free。
