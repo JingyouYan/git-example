@@ -12,4 +12,6 @@ add_subdirectory(3-for-a-while)
 add_subdirectory(4-loop)
 add_subdirectory(2024BoCS)
 add_subdirectory(5-function)
-
+add_subdirectory(7-pointers-and-arrays)
+add_subdirectory(8-printers-and-strings)
+add_subdirectory(9-double-pointers)
