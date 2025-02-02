@@ -9,7 +9,7 @@ void selectionSort(int arr[], int len);
 
 int getMinIndex(const int arr[], int begin, int end);
 
-void swapVal(int *left_val, int *right_val);
+void swapVal(int *left, int *right);
 
 void oldSwap(int arr[], int left_index, int right_index);
 
@@ -57,7 +57,7 @@ void selectionSort(int *arr, int len){
 int getMinIndex(const int *arr, int begin, int end){
     int min = arr[begin];
     int minIndex = begin;
-    for (int i = begin; i < end; i++) {
+    for (int i = begin+1; i <= end; i++) {
         if (arr[i] < min) {
             min = arr[i];
             minIndex = i;
@@ -73,11 +73,11 @@ void oldSwap(int arr[], int left_index, int right_index){
     arr[right_index] = temp;
 }
 
-void swapVal(int *left_val, int *right_val){
+void swapVal(int *left, int *right){
     //我得到的是两个指针变量，得到了变量的地址，操作的就不再是值的拷贝，而是对应到了变量，因此实现了间接操作其对应变量
-    int temp = *left_val;
-    *left_val = *right_val;
-    *right_val = temp;
+    int temp = *left;
+    *left = *right;
+    *right = temp;
 }
 
 void printArray(const int arr[], int len){

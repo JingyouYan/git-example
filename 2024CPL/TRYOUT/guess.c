@@ -1,76 +1,68 @@
 //
-// Created by 26247 on 2024/12/19.
+// Created by 26247 on 2024/12/20.
 //
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#define SIZE 10100
-#define LEN 100
-#define NUM 100
-
-// 删除之前多余的不一致的声明，避免类型冲突报错
-// int GetMinIndex(const char (*array)[], int len); 
-
-// 修改函数参数类型，明确数组元素大小为LEN，解决数组边界未指定的使用问题
-int GetMinIndex(const char (*array)[LEN], int begin, int end){
-    const char *min = *(array + begin);
-    int minIndex = begin;
-    for (int i = begin; i < end; i++) {
-        if (strcmp(*(array + i), min) < 0) {
-            // 这里因为前面修改了参数类型，现在能正确使用了
-            minIndex = i;
-            min = *(array + i); // 修改此处，正确获取对应元素指针，避免之前的数组使用错误
-        }
-    }
-    return minIndex;
-}
-
-void Swap(const char **left, const char **right){
-    const char *temp = *left;
-    *left = *right;
-    *right = temp;
-}
-
-void SelectionSort(char (*array)[LEN], int length){
-    for (int i = 0; i < length; i++) {
-        int minIndex = GetMinIndex(array, i, length);
-        // 对传递给Swap函数的参数进行类型转换，使其符合Swap函数期望的类型
-        Swap((const char **) (array + i), (const char **) (array + minIndex));
-    }
-}
+#define LEN 11
+#define SIZE 10001
 
 int main(void){
-    char string0[SIZE] = {'\0'};
-    scanf("%s", string0);
-    char (*string)[LEN] = malloc(NUM * sizeof(*string));
-    //记得每次调用malloc对应的是stdlib.h标准库函数，后面学的qsort bsearch大多也是滴
-    //记得检查是否分配成功，是否free
-    if (string == NULL) {
-        return 1;
+    int p1, p2;
+    scanf("%d%d", &p1, &p2);
+
+    char name[LEN];
+    scanf("%s", name);
+
+    int factor1[SIZE], factor2[SIZE];
+    for (int i = 0; i < p1 + 1; i++) {
+        scanf("%d", &factor1[i]);
     }
-    memset(string, '\0', strlen(string0) + 1);
+    for (int i = 0; i < p2 + 1; i++) {
+        scanf("%d", &factor2[i]);
+    }
 
-    char divide;
-    scanf("%c", &divide);
+    //实现P1*P2
+    int count = p1 + p2 + 1;
+    int factor[count];
+    for (int i = 0; i < count; i++) {
+        int factorSum = 0;
+        for (int j = 0; j <= i; j++) {
+            if (j <= p1 && i - j <= p2) {
+                factorSum += factor1[j] * factor2[i - j];
+            }
+        }
+        factor[i] = factorSum;
+    }
 
-    int count = 0;
-    int index = 0;
-    for (int i = 0; i < strlen(string0); i++) {
-        if (string0[i] == divide) {
-            count++;
-            index = 0;
-        } else {
-            *(*(string + count) + index++) = string0[i + count];
+    for (int i = count - 1; i >= 0; i--) {
+        if (i == 0) {
+            printf("%d\n", factor[i]);
+            break;
+        }
+
+        if (factor[i] == 1) {
+            if (i == 1) {
+                printf("%d%s", factor[i], name);
+            } else {
+                printf("%s^%d", name, i);
+            }
+        } else if (factor[i] == -1) {
+            if (i == 1) {
+                printf("%d%s", factor[i], name);
+            } else {
+                printf("-%s^%d", name, i);
+            }
+        } else if (factor[i] > 1 && i != count) {
+            if (i == 1) {
+                printf("%d%s", factor[i], name);
+            } else {
+                printf("+%d%s^%d", factor[i], name, i);
+            }
+        } else if (factor[i] < -1) {
+            if (i == 1) {
+                printf("%d%s", factor[i], name);
+            } else {
+                printf("%d%s^%d", factor[i], name, i);
+            }
         }
     }
-
-    int n = count + 1; //字符串的个数
-    SelectionSort(string, n);
-
-    for (int i = 0; i < n; i++) {
-        printf("%s", string[i]);
-        printf("\n");
-    }
-
-    free(string);
 }

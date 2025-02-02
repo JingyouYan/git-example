@@ -25,9 +25,10 @@ int main(void){
         if (result == NULL) {
             printf("-1\n");
         } else {
-            printf("%d\n", result - arr);
+            printf("%d\n", (int) (result - arr));
         }
     }
+    free(arr);
     return 0;
 }
 
