@@ -7,7 +7,7 @@
 12	121	7510385521685274	3-for-a-while/CMakeFiles/blackhole.dir/balckhole.c.obj	aeb8ae16a50bc7
 3	101	7493081060906926	1-types-variable/CMakeFiles/c.dir/circle.c.obj	bf9af26ee69d70a9
 102	211	7522296309664177	1-types-variable/admin.exe	6886c09082eefb4c
-2	365	7572646587917927	build.ninja	f23d630f1f2f8963
+2	365	7601700269690841	build.ninja	f23d630f1f2f8963
 3	82	7499797920153696	2-if-for-array/CMakeFiles/ASCII.dir/ASCII.c.obj	ba84a4788ace0976
 100	202	7487094682186952	tryout.exe	ca2993e060b34e9a
 6	152	7491354944027957	1-types-variable/CMakeFiles/circle.dir/circle.c.obj	ef10213bc7e32488
@@ -127,6 +127,7 @@
 4	107	7563993032728284	10-function-pointers/CMakeFiles/integration.dir/integration.c.obj	f471e18aeffa8ed1
 4	90	7528586739709923	2024BoCS/W1/CMakeFiles/state-graph.dir/state-graph.c.obj	7171bae5438d2b3
 91	195	7547294105584083	7-pointers-and-arrays/BigTitle.exe	558f0f88aa4bd970
+111	253	7572666495726628	12-linkedlist/josephus2.exe	c9029b4db22faee6
 92	209	7528586740590010	2024BoCS/W1/state-graph.exe	8b210c7e66f1e7cb
 6	92	7528609337255130	5-function/CMakeFiles/radix.dir/radix.c.obj	f9d9e82a751e36f9
 93	212	7528609338132615	5-function/radix.exe	57fa85e73b88f8d2
@@ -157,12 +158,9 @@
 318	597	7563915624639677	9-double-pointers/fifa.exe	814a30b181a268bf
 109	239	7563993033776198	10-function-pointers/integration.exe	5bdb7b3a6a7975fb
 5	106	7564661370806218	9-double-pointers/CMakeFiles/polynlist.dir/polynlist.c.obj	5681a59f71708c0b
-5	112	7565384883067761	11-struct/CMakeFiles/musician.dir/musician.c.obj	f8edcfb6a30087da
-113	229	7565384884150765	11-struct/musician.exe	c94e91a4fd63dada
-5	107	7572666494675490	12-linkedlist/CMakeFiles/josephus2.dir/josephus2.c.obj	78d52342c462b38d
-21	111	7572666494830543	12-linkedlist/CMakeFiles/josephus2.dir/ll/ll.c.obj	6ca50599b5bbdf6e
-111	253	7572666495726628	12-linkedlist/josephus2.exe	c9029b4db22faee6
-12	1497	7577481668732761	8-printers-and-strings/CMakeFiles/strs_cat.dir/strs_cat.c.obj	40f356a7ec76958b
-1503	7173	7577481683635711	8-printers-and-strings/strs_cat.exe	4dba3fe2d0173874
 6	99	7577514766661839	11-struct/CMakeFiles/musician.dir/musician.c.obj	f8edcfb6a30087da
 102	213	7577514767614509	11-struct/musician.exe	c94e91a4fd63dada
+5	107	7572666494675490	12-linkedlist/CMakeFiles/josephus2.dir/josephus2.c.obj	78d52342c462b38d
+21	111	7572666494830543	12-linkedlist/CMakeFiles/josephus2.dir/ll/ll.c.obj	6ca50599b5bbdf6e
+12	1497	7577481668732761	8-printers-and-strings/CMakeFiles/strs_cat.dir/strs_cat.c.obj	40f356a7ec76958b
+1503	7173	7577481683635711	8-printers-and-strings/strs_cat.exe	4dba3fe2d0173874
