@@ -7,6 +7,7 @@
 //在底层enum是以整数形式存储的。意味着可以进行MALE=5这样的操作
 //在默认情况下，枚举常量的值从 0 开始依次递增
 //很危险，由于底层按整数保存，这里写.gender ='M'也不会报错，即使范围已经超限
+//weather the version makes it.
 typedef enum gender {
   MALE,
   FEMALE,
@@ -63,6 +64,7 @@ void Print(Musician *m);
 int CompareMusicianByName(const void *left, const void *right);
 
 int main(void){
+  int a = KINDS_OF_GENDER;
   printf("Sizeof(Musician) = %zu\n", sizeof(Musician));
   //这里offsetof是一个宏macro，可以看做一个函数，求距首地址的偏移量
   //用于计算结构体中一个成员相对于结构体起始地址的偏移量。
