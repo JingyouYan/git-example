@@ -129,3 +129,5 @@ E:/example/git-example/2024CPL/cmake-build-debug/12-linkedlist/ll/CMakeFiles/edi
 E:/example/git-example/2024CPL/cmake-build-debug/12-linkedlist/ll/CMakeFiles/rebuild_cache.dir
 E:/example/git-example/2024CPL/cmake-build-debug/project0/CMakeFiles/edit_cache.dir
 E:/example/git-example/2024CPL/cmake-build-debug/project0/CMakeFiles/rebuild_cache.dir
+E:/example/git-example/2024CPL/cmake-build-debug/project00/CMakeFiles/edit_cache.dir
+E:/example/git-example/2024CPL/cmake-build-debug/project00/CMakeFiles/rebuild_cache.dir
